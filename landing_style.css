@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+nav{
+    margin: 15px;
+}
+#first{
+    position: relative;
+    left: 20px;
+}
+
+#second{
+    position: absolute;
+    right: 30px;
+    padding: 8px;
+    background-color: blue;
+    top: 5px;
+}
+
+section{
+    margin: 0 auto;
+    background-image: url(./img/landing.jpg);
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+article{
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#boton{
+    background-color: blue;
+    border: none;
+}
+#first_text{
+    font-size: 40px;
+    color: white;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    margin: 15px;
+    padding: 5px;
+    width: 30%;
+}
+div{
+    display: inline-block;
+    margin: 5%;
+    padding-left: 4%;
+    text-align: center;
+}
+footer{
+    position: relative;
+    margin: 0 auto;
+}
+i{
+    color: blue;
+    font-size: 30px;
+}
